@@ -17,12 +17,13 @@
 .profile-box {
   width: 480px;
   max-width: calc(100vw - 10px);
-  background-color: rgba(171, 23, 23, 0.718);
+  background-color: rgba(171, 23, 23, 0.8);
   text-align: center;
   padding: 40px 50px;
   color: rgb(0, 0, 0);
   position: relative;
   border-radius: 15px;
+  border: 4px solid rgba(0, 0, 0, 1)
 }
 
 .profile-picture {
@@ -30,9 +31,9 @@
   height: 145px;
   border-radius: 50%;
   background: rgb(3, 1, 1);
-  padding: 5px;
+  padding: 4px;
   transition: all 0.5s ease-in-out;
-  margin-top: -110px;
+  margin-top: -115px;
   margin-bottom: 10px;;
 }
 
@@ -41,8 +42,19 @@
   filter: grayscale(10%);
 }
 
+.content {
+  margin-top: 10px;
+  padding: 5% 10%;
+  border-top: 1px solid rgba(0, 0, 0, 0.984);
+}
+
 h2 {
-  font-size: 13px;;
+  font-size: medium;;
+}
+
+p {
+  font-size: medium;
+  font-weight: 500;
 }
 
 a {
