@@ -1,0 +1,46 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'poppins', sans-serif;
+}
+
+.container {
+  background: url(assets/tausta.JPG) no-repeat center center fixed;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.profile-box {
+  width: 480px;
+  max-width: calc(100vw - 10px);
+  background-color: rgba(171, 23, 23, 0.718);
+  text-align: center;
+  padding: 40px 50px;
+  color: rgb(0, 0, 0);
+  position: relative;
+  border-radius: 15px;
+}
+
+.profile-picture {
+  width: 120px;
+  height: 145px;
+  border-radius: 50%;
+  background: rgb(3, 1, 1);
+  padding: 5px;
+  transition: all 0.5s ease-in-out;
+  margin-top: -110px;
+  margin-bottom: 10px;;
+}
+
+.profile-picture:hover {
+  transform: scale(1.1);
+  filter: grayscale(10%);
+}
+
+h2 {
+  font-size: 13px;;
+}
